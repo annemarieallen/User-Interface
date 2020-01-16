@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/*Meyer's reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +65,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/*Styles for the Navigation*/
+
+nav{
+	margin: 1%;
+	padding: 1%;
+}
+
+nav a {
+	margin: 3%;
+	padding: 2%;
+	color: #a9a9a9
+	text-decoration: none;
+}
+
+/*Styles for the Content*/
