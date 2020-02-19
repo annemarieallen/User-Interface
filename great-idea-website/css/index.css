@@ -66,14 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-nav {
-	padding: 20px;
-	width: 70%;
-}
-
-header, section, nav, footer {
-	border: 1px solid; 
-	margin: 3px;
+ 
+header{
+	margin-bottom: 30px;
 }
 
 nav, .logo {
@@ -81,10 +76,9 @@ nav, .logo {
 }
 
 .logo {
-	width:20%;
-	background-color:blue;
+	width:15%;
 	margin-left: 40px;
-	margin-top: 20px;
+	margin-top: 30px;
 
 }
 
@@ -92,4 +86,46 @@ a {
 	padding: 20px;
 	text-decoration: none;
 	color: grey;
+}
+
+.main-content{
+	margin-top: 30px;
+	margin: 10px;
+}
+
+.main-heading {
+	display: inline-block;
+	width: 60%;
+	vertical-align:top;
+	text-align: center;
+	font-size: 55px;
+	margin-top: 20px;
+}
+
+button {
+	border-radius: 1px;
+	width: 18%;
+	border: solid black 1px;
+}
+
+.heading-img {
+	width: 30%;
+	margin: 3px;
+}
+
+.middle-img {
+	width: 80%;
+	margin: auto;
+	border: 2px solid;
+	margin: 10px;
+}
+
+.main-content div {
+	display: inline-block;
+	width: 30%;
+/*
+
+header, section, nav, footer {
+	border: 1px solid; 
+	margin: 3px;
 }
